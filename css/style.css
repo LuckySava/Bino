@@ -803,7 +803,75 @@ h1 {
 .case__photo img {
 	width: 100%;
 	min-height: 722px;
-
 }
+
+/*///////////////////////Statistic>>>>>>>>>>*/
+
+.statistic {
+	background-image: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),  url(../img/statistic/main.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+	padding-top: 157px;
+	padding-bottom: 157px;
+}
+.stat__item {
+	text-align: center;
+	display: inline-block;
+	width: (100% - 145px * 4);
+	vertical-align: middle;
+}
+.stat__item:hover img {
+	transform: hue-rotate(50deg);
+}
+.stat__item:not(:first-child) {
+	margin-left: 147px;
+}
+.stat__circle {
+	width: 111px;
+	height: 111px;
+	border-radius: 50%;
+	border: 1px solid #ffffff;
+	position: relative;
+	margin-bottom: 30px;
+}
+.stat__circle img {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 50%;
+	margin-top: -15px;
+	right: 50%;
+	margin-right: -15px;
+}
+.stat__item big {
+	color: #f4f5f9;
+	font-family: "Source Sans Pro";
+	font-size: 30px;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+	line-height: 30px;
+	margin-left: -10px;
+}
+.stat__item small {
+	font-weight: 400;
+	letter-spacing: 0.9px;
+	font-size: 14px;
+	color: #f4f5f9;
+	font-family: "Source Sans Pro";
+	letter-spacing: 1.5px;
+	display: block;
+	line-height: 30px;
+	margin: 0 auto;
+}
+
+/*.............Offer...................*/
+
+.offer {
+	text-align: center;
+	padding-top: 156px;
+	font-size: 16px;
+}
+
 
 
