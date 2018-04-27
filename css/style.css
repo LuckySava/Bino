@@ -8,7 +8,7 @@ body {
 	font-size: 0;
 	margin: 0;
 	min-width: 980px;
-	font-family: "Open Sans";
+	font-family: "Open Sans" san-serif;
 	overflow-x: hidden;: 
 }
 
@@ -870,8 +870,107 @@ h1 {
 .offer {
 	text-align: center;
 	padding-top: 156px;
+	padding-bottom: 183px;
 	font-size: 16px;
 }
+.offer__item {
+	display: inline-block;
+	vertical-align: middle;
+	width: 32%;
+	margin-top: 69px;
+	cursor: pointer;
+	background-color: #f4f5f9;
+	transition: 0.4s;
+}
+.offer__item:hover .offer__title__wrap,
+.offer__item:hover .offer__text button {
+	background-color: #e74c3c;
+	transition: 0.4s;
+}
+.offer__item:not(:last-child) {
+	margin-right: 16px;
+}
+.offer__title__wrap {
+	width: 100%;	
+	height: 205px;
+	background-color: #999999;
+	position: relative;
+}
+.offer__wrap {
+	width: 174px;
+	height: 174px;
+	border-radius: 50%;
+	border: 10px solid rgba(255, 255, 255, 0.25);
+	margin: 0 auto;
+	margin-top: 45px;
+}
+.offer__price {
+	width: 154px;
+	height: 153px;
+	background-color: #ffffff;
+	z-index: 22;
+	border-radius: 50%;
+	z-index: 28;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
 
+.offer__title__wrap span {
+	width: 115px;
+	height: 19px;
+	color: #ffffff;
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1.8px;
+	margin-top: 50px;
+	display: inline-block;
+}
+.offer__title__wrap big {
+	display: inline-block;
+	color: #999999;
+	font-family: "Source Sans Pro";
+	font-weight: bold;
+	line-height: 21.95px;
+	font-size: 40px;
+	font-weight: 700;
+}
+.offer__title__wrap small {
+	font-weight: 400;
+	color: #999999;
+	font-family: "Source Sans Pro";
+	font-size: 13px;
+	line-height: 21.95px;
+}
+.offer__text {
+	background-color: #f4f5f9;
+	padding-top: 105px;
+}
+.offer__text p{
+	width: 205px;
+	margin: 0 auto;
+	color: #999999;
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 40px;
+}
 
+.offer__text button {
+	padding: 15px 29px;
+	box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.25);
+	background-color: #999999;
+	color: #ffffff;
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.14px;
+	border: none;
+	border-radius: 4px;
+	margin-top: 48px;
+	cursor: pointer;
+}
 
