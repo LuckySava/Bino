@@ -887,6 +887,10 @@ h1 {
 	background-color: #e74c3c;
 	transition: 0.4s;
 }
+.offer__item:hover .offer__price big {
+	color: #e74c3c;
+	transition: 0.4s;
+}
 .offer__item:not(:last-child) {
 	margin-right: 16px;
 }
