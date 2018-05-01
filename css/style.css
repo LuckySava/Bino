@@ -322,11 +322,16 @@ h1 {
 	height: 73px;
 	border: 1px solid rgba(153, 153, 153, 0.25);
 	margin-bottom: 30px;
-
 }
 
 .history__img img {
 	max-width: 27px;
+}
+.history__img__first img {
+	vertical-align: middle;
+	margin: 0 auto;
+	position: relative;
+	left: -2px;
 
 }
 
@@ -1136,3 +1141,116 @@ h1 {
 .parnter__row__second {
 	margin-top: 30px;
 }
+
+/*<<<<<<<<<<<<<<<BLOG>>>>>>>>>>>>>>>>>>>>>*/
+
+.blog {
+	text-align: center;
+	padding-top: 119px;
+}
+.blog__items {
+	margin-top: 101px;
+}
+
+.blog__item {
+	display: inline-block;
+	width: 25%;
+	height: 480px;
+	box-sizing: border-box;
+	vertical-align: middle;
+}
+
+.blog__item img {
+	width: 100%;
+	height: 100%;
+}
+
+.blog__text {
+	height: 100%;
+	padding: 70px 50px;
+	display: inline-block;
+	background-color: #e74e3e;
+	position: relative;
+}
+.blog__text > small{
+	color: #ffffff;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 0.7px;
+	display: block;
+	width: 150px;
+	text-align: left;
+}
+.blog__text > big {
+	display: block;
+	color: #ffffff;
+	font-family: "Source Sans Pro - Semibold";
+	font-size: 24px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 1.2px;
+	text-align: left;
+	margin-top: 32px;
+	position: relative;
+}
+.blog__text > big::after {
+	content: '';
+	position: absolute;
+	width: 44px;
+	height: 4px;
+	background-color: #ffffff;
+	bottom: -15px;
+	left: 0;
+}
+.blog__text > p {
+	margin-top: 32px;
+	color: #ffffff;
+	font-family: "Open Sans";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 30px;
+	width: 95%;
+	height: 136px;
+	text-align: left;
+}
+.blog__text > p a {
+	display: inline-block;
+	color: #ffffff;
+	font-family: "Open Sans - Semibold Italic";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	font-style: italic;
+	margin-top: 45px;
+}
+.blog__text > p a:hover .fa-angle-double-right{
+	margin-left: 15px;
+	opacity: 0.4;
+	transition: 0.3s;
+}
+.fa-angle-double-right {
+	line-height: 24px;
+	color: #ffffff;
+	font-size: 18px;
+	margin-left: 10px;
+	vertical-align: middle;
+	font-weight: 400;
+	transition: 0.3s;
+}
+.tringle {
+	border: 35px solid transparent;
+	border-right: 30px solid #e74e3e;
+	position: relative;
+	left: -420px;
+	top: -110px;
+}
+.tringle2 {
+	border: 35px solid transparent;
+	border-left: 30px solid #e74e3e;
+	position: relative;
+	right: -418px;
+	top: -110px;
+}
+
+
