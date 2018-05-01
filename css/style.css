@@ -1253,4 +1253,107 @@ h1 {
 	top: -110px;
 }
 
+/*<<<<<<<<<<<<<<<Contact>>>>>>>>>>>>>>>>>>>>>*/
+
+.contact {
+	padding-top: 149px;
+	padding-bottom: 150px;
+	background-color: #f4f5f9;
+}
+.contact h2, .contact p {
+	text-align: center;
+}
+.contact__block {
+	margin-top: 69px;
+}
+
+.contact__addres {
+	display: inline-block;
+	vertical-align: middle;
+	width: calc(100% - 665px - 28px);
+	padding: 41px 55px 61px;
+	margin-right: 28px;
+	background-color: #ffffff;
+}
+.contact__addres > span {
+	color: #e74e3e;
+	font-family: "Source Sans Pro - Semibold";
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 24px;
+	text-transform: uppercase;
+	display: block;
+	margin-bottom: 28px;
+	margin-top: 60px;
+}
+.contact__addres > address {
+	color: #999999;
+	font-family: "Open Sans";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	font-style: normal;
+}
+.contact__addres a {
+	color: #999999;
+	font-family: "Open Sans";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	display: block;
+}
+.contact__form {
+	display: inline-block;
+	vertical-align: middle;
+	width: calc(100% - 478px - 28px);
+	padding: 70px 65px 67px 85px;
+	background-color: #ffffff;
+}
+.contact__form label {
+	color: #999999;
+	font-family: "Open Sans - Semibold";
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 24px;
+	display: block;
+}
+.contact__form > input {
+	width: 464px;
+	border: none;
+	border-bottom: 1px solid rgba(153, 153, 153, 0.25);
+	margin-bottom: 20px;
+	color: #6A6A6A;
+}
+.contact__form textarea {
+	border: 1px solid rgba(153, 153, 153, 0.25);
+	color: #6A6A6A;
+	
+}
+.contact__form button {
+	width: 157px;
+	height: 44px;
+	box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.25);
+	background-color: #e74e3e;
+	border: none;
+	border-radius: 4px;
+	display: block;
+	margin-top: 30px;
+	color: #ffffff;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 40px;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: 0.3s;
+}
+.contact__form button:hover {
+	box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.25);
+	opacity: 0.9;
+	transition: 0.3s;
+}
+
+
+
+
 
