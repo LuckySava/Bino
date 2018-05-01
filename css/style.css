@@ -1327,6 +1327,7 @@ h1 {
 .contact__form textarea {
 	border: 1px solid rgba(153, 153, 153, 0.25);
 	color: #6A6A6A;
+	resize: none;
 	
 }
 .contact__form button {
