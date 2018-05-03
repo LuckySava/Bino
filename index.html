@@ -5,8 +5,29 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,900" rel="stylesheet">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+	<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous"> -->
 	<script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+		<script type="text/javascript">
+	$(document).ready(function(){
+	 
+	$(window).scroll(function(){
+	if ($(this).scrollTop() > 100) {
+	$('.scrollup').fadeIn();
+	} else {
+	$('.scrollup').fadeOut();
+	}
+	});
+	 
+	$('.scrollup').click(function(){
+	$("html, body").animate({ scrollTop: 0 }, 700); 
+	return false;
+	});
+	 
+	});
+	</script>
+
 </head>
 <body>
 	<header>
@@ -736,6 +757,34 @@
 		</div>
 	</section>
 
+	<section class="enter" id="enter">
+		<div class="container">
+			<p class="enter__title">
+				Let's Get Started Now. <span>It's FREE!</span>
+			</p>
+			<p class="enter__sub">30 day free trial. Free plan allows up to 2 projects. Pay if you need more. Cancel anytime. No catches.</p>
+			<button>start free trial</button>
+		</div>
+	</section>
+	<footer class="footer" id="footer">
+		<div class="container">
+			<div class="soc__button">
+				<a href=""><i class="fab fa-facebook-f socbtn"></i></a>
+				<a href=""><i class="fab fa-twitter socbtn"></i></a>
+				<a href=""><i class="fas fa-rss socbtn"></i></a>
+				<a href=""><i class="fab fa-google-plus-g socbtn"></i></a>
+				<a href=""><i class="fab fa-linkedin-in socbtn"></i></a>
+				<a href=""><i class="fab fa-skype socbtn"></i></a>
+				<a href=""><i class="fab fa-vimeo-v socbtn"></i></a>
+				<a href=""><i class="fab fa-tumblr socbtn"></i></a>
+			</div>
+			<div class="copyright">
+				<p>Kazi Erfan © All Rights Reserved </p>
+			</div>
+		</div>
+	</footer>
+
+<a href="#" class="scrollup">Наверх</a>
 </body>
 <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </html>
