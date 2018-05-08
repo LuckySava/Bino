@@ -1161,6 +1161,7 @@ h1 {
 	height: 480px;
 	box-sizing: border-box;
 	vertical-align: middle;
+	position: relative; /*change*/
 }
 
 .blog__item img {
@@ -1244,16 +1245,17 @@ h1 {
 .tringle {
 	border: 35px solid transparent;
 	border-right: 30px solid #e74e3e;
-	position: relative;
-	left: -420px;
-	top: -110px;
+	position: absolute;
+	left: -60px;
+	top: 230px;
 }
 .tringle2 {
 	border: 35px solid transparent;
 	border-left: 30px solid #e74e3e;
-	position: relative;
-	right: -418px;
-	top: -110px;
+	position: absolute;
+	z-index: 1;
+	right: -60px;
+	top: 195px;
 }
 
 /*<<<<<<<<<<<<<<<Contact>>>>>>>>>>>>>>>>>>>>>*/
